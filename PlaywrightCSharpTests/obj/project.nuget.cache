@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "1iV8Vob8ISc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ajdpe\\LearningsAI\\SeleniumCodebaseCourse\\PlaywrightCSharpTests\\PlaywrightCSharpTests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ajdpe\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\ajdpe\\.nuget\\packages\\microsoft.playwright\\1.49.0\\microsoft.playwright.1.49.0.nupkg.sha512",
+    "C:\\Users\\ajdpe\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

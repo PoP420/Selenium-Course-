@@ -10,3 +10,4 @@ C:\Users\ajdpe\LearningsAI\SeleniumCodebaseCourse\SeleniumCSharpTests\obj\Debug\
 C:\Users\ajdpe\LearningsAI\SeleniumCodebaseCourse\SeleniumCSharpTests\obj\Debug\net10.0\refint\SeleniumCSharpTests.dll
 C:\Users\ajdpe\LearningsAI\SeleniumCodebaseCourse\SeleniumCSharpTests\obj\Debug\net10.0\SeleniumCSharpTests.pdb
 C:\Users\ajdpe\LearningsAI\SeleniumCodebaseCourse\SeleniumCSharpTests\obj\Debug\net10.0\ref\SeleniumCSharpTests.dll
+C:\Users\ajdpe\LearningsAI\SeleniumCodebaseCourse\SeleniumCSharpTests\obj\Debug\net10.0\SeleniumCSharpTests.sourcelink.json

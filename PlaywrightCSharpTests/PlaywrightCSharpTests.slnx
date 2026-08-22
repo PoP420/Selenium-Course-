@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PlaywrightCSharpTests.csproj" />
+  <Project Path="PlaywrightCSharpTests.Tests\PlaywrightCSharpTests.Tests.csproj" />
+</Solution>

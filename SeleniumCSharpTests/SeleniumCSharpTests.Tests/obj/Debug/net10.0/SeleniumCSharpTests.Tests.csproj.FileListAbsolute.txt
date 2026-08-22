@@ -164,3 +164,4 @@ C:\Users\ajdpe\LearningsAI\SeleniumCodebaseCourse\SeleniumCSharpTests\SeleniumCS
 C:\Users\ajdpe\LearningsAI\SeleniumCodebaseCourse\SeleniumCSharpTests\SeleniumCSharpTests.Tests\obj\Debug\net10.0\SeleniumCSharpTests.Tests.pdb
 C:\Users\ajdpe\LearningsAI\SeleniumCodebaseCourse\SeleniumCSharpTests\SeleniumCSharpTests.Tests\obj\Debug\net10.0\SeleniumCSharpTests.Tests.genruntimeconfig.cache
 C:\Users\ajdpe\LearningsAI\SeleniumCodebaseCourse\SeleniumCSharpTests\SeleniumCSharpTests.Tests\obj\Debug\net10.0\ref\SeleniumCSharpTests.Tests.dll
+C:\Users\ajdpe\LearningsAI\SeleniumCodebaseCourse\SeleniumCSharpTests\SeleniumCSharpTests.Tests\obj\Debug\net10.0\SeleniumCSharpTests.Tests.sourcelink.json
