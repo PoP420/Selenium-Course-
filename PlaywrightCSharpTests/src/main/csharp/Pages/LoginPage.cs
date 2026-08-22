@@ -15,6 +15,7 @@ public class LoginPage : BasePage
     public async Task NavigateToLoginAsync()
     {
         await Page.GotoAsync("https://practicesoftwaretesting.com/auth/login");
+        await EmailInput.WaitForAsync(new() { State = WaitForSelectorState.Visible });
     }
 
     public async Task LoginAsync(string email, string password)

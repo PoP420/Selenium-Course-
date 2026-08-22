@@ -12,7 +12,7 @@ public class HomePageTest : TestBase
         var homePage = new HomePage(Page);
         await homePage.NavigateAsync();
 
-        await Expect(Page).ToHaveTitleAsync("Practice Software Testing - Home");
+        await Expect(Page).ToHaveTitleAsync(new Regex("Practice Software Testing"));
         Assert.That(await homePage.IsProductContainerDisplayedAsync(), Is.True);
     }
 

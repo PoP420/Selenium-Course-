@@ -21,6 +21,6 @@ public class VerifySetupTest : TestBase
         await Page.GotoAsync("https://example.com");
         await Expect(Page.GetByRole(AriaRole.Heading, new() { NameString = "Example Domain" }))
             .ToBeVisibleAsync();
-        await Expect(Page.Locator("p")).ToContainTextAsync("This domain is for use in illustrative examples");
+        await Expect(Page.Locator("p", new() { HasText = "This domain is for use in" })).ToContainTextAsync("This domain is for use in documentation examples");
     }
 }

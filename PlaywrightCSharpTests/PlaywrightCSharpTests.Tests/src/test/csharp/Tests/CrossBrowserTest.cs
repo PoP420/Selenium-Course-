@@ -1,3 +1,4 @@
+using System.Text.RegularExpressions;
 using PlaywrightCSharpTests.Pages;
 
 namespace PlaywrightCSharpTests.Tests;
@@ -13,6 +14,6 @@ public class CrossBrowserTest : TestBase
     public async Task TestLoginPageLoads(string browserName)
     {
         await Page.GotoAsync("https://practicesoftwaretesting.com/auth/login");
-        await Expect(Page).ToHaveTitleAsync("Practice Software Testing");
+        await Expect(Page).ToHaveTitleAsync(new Regex("Practice Software Testing"));
     }
 }

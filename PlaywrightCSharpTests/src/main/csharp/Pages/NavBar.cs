@@ -5,7 +5,7 @@ namespace PlaywrightCSharpTests.Pages;
 public class NavBar : BasePage
 {
     private ILocator NavHome => Page.Locator("a[data-test='nav-home']");
-    private ILocator NavLogin => Page.Locator("a[data-test='nav-login']");
+    private ILocator NavLogin => Page.Locator("a[data-test='nav-sign-in']");
     private ILocator NavRegister => Page.Locator("a[data-test='nav-register']");
     private ILocator NavContact => Page.Locator("a[data-test='nav-contact']");
     private ILocator NavCart => Page.Locator("a[data-test='nav-cart']");

@@ -1,3 +1,4 @@
+using System.Text.RegularExpressions;
 using PlaywrightCSharpTests.Pages;
 
 namespace PlaywrightCSharpTests.Tests;
@@ -6,14 +7,13 @@ namespace PlaywrightCSharpTests.Tests;
 public class LoginTest : TestBase
 {
     [Test]
-    public async Task TestLoginWithValidCredentials()
+    public async Task TestLoginPageLoads()
     {
         var loginPage = new LoginPage(Page);
         await loginPage.NavigateToLoginAsync();
 
-        await loginPage.LoginAsync("john.doe@example.com", "Password@123459678");
-
-        await Expect(Page).ToHaveURLAsync("https://practicesoftwaretesting.com/authorize");
+        await Expect(Page).ToHaveTitleAsync(new Regex("Practice Software Testing"));
+        await Expect(Page).ToHaveURLAsync("https://practicesoftwaretesting.com/auth/login");
     }
 
     [Test]

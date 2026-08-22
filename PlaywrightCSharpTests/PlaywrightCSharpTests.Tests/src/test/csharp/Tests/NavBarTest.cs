@@ -15,10 +15,10 @@ public class NavBarTest : TestBase
         var navBar = new NavBar(Page);
         await navBar.GoToContactAsync();
 
-        Assert.That(Page.Url, Does.Contain("contact"));
+        await Expect(Page).ToHaveURLAsync(new Regex(".*contact.*"));
 
         await navBar.GoToLoginAsync();
-        Assert.That(Page.Url, Does.Contain("auth/login"));
+        await Expect(Page).ToHaveURLAsync(new Regex(".*auth/login.*"));
 
         await navBar.GoToHomeAsync();
         await Expect(Page).ToHaveURLAsync("https://practicesoftwaretesting.com/");

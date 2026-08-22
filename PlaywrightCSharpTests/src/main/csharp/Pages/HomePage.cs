@@ -11,6 +11,7 @@ public class HomePage : BasePage
     public async Task NavigateAsync()
     {
         await Page.GotoAsync("https://practicesoftwaretesting.com/");
+        await ProductCard.First.WaitForAsync(new() { State = WaitForSelectorState.Visible });
     }
 
     public async Task<bool> IsProductContainerDisplayedAsync()

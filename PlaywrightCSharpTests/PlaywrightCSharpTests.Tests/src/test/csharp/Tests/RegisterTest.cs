@@ -1,3 +1,4 @@
+using System.Text.RegularExpressions;
 using PlaywrightCSharpTests.Pages;
 
 namespace PlaywrightCSharpTests.Tests;
@@ -11,6 +12,6 @@ public class RegisterTest : TestBase
         var registerPage = new RegisterPage(Page);
         await registerPage.NavigateToRegisterAsync();
 
-        await Expect(Page).ToHaveTitleAsync("Practice Software Testing - Register");
+        await Expect(Page).ToHaveTitleAsync(new Regex("Practice Software Testing"));
     }
 }

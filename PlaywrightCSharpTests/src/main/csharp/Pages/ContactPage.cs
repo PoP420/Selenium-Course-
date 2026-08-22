@@ -9,7 +9,7 @@ public class ContactPage : BasePage
     private ILocator EmailInput => Page.Locator("#email");
     private ILocator SubjectSelect => Page.Locator("#subject");
     private ILocator MessageInput => Page.Locator("#message");
-    private ILocator BtnSubmit => Page.Locator(".btnSubmit");
+    private ILocator BtnSubmit => Page.Locator("[data-test='contact-submit']");
     private ILocator Alert => Page.Locator(".alert");
 
     public ContactPage(IPage page) : base(page) { }
@@ -17,6 +17,7 @@ public class ContactPage : BasePage
     public async Task NavigateToContactAsync()
     {
         await Page.GotoAsync("https://practicesoftwaretesting.com/contact");
+        await FirstNameInput.WaitForAsync(new() { State = WaitForSelectorState.Visible });
     }
 
     public async Task FillFormAsync(string firstName, string lastName, string email, string message)

@@ -24,6 +24,7 @@ public class RegisterPage : BasePage
     public async Task NavigateToRegisterAsync()
     {
         await Page.GotoAsync("https://practicesoftwaretesting.com/auth/register");
+        await FirstNameInput.WaitForAsync(new() { State = WaitForSelectorState.Visible });
     }
 
     public async Task RegisterAsync(
