@@ -1,0 +1,12 @@
+C:\Users\ajdpe\LearningsAI\SeleniumCodebaseCourse\SeleniumCSharpTests\bin\Debug\net10.0\SeleniumCSharpTests.deps.json
+C:\Users\ajdpe\LearningsAI\SeleniumCodebaseCourse\SeleniumCSharpTests\bin\Debug\net10.0\SeleniumCSharpTests.dll
+C:\Users\ajdpe\LearningsAI\SeleniumCodebaseCourse\SeleniumCSharpTests\bin\Debug\net10.0\SeleniumCSharpTests.pdb
+C:\Users\ajdpe\LearningsAI\SeleniumCodebaseCourse\SeleniumCSharpTests\obj\Debug\net10.0\SeleniumCSharpTests.csproj.AssemblyReference.cache
+C:\Users\ajdpe\LearningsAI\SeleniumCodebaseCourse\SeleniumCSharpTests\obj\Debug\net10.0\SeleniumCSharpTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ajdpe\LearningsAI\SeleniumCodebaseCourse\SeleniumCSharpTests\obj\Debug\net10.0\SeleniumCSharpTests.AssemblyInfoInputs.cache
+C:\Users\ajdpe\LearningsAI\SeleniumCodebaseCourse\SeleniumCSharpTests\obj\Debug\net10.0\SeleniumCSharpTests.AssemblyInfo.cs
+C:\Users\ajdpe\LearningsAI\SeleniumCodebaseCourse\SeleniumCSharpTests\obj\Debug\net10.0\SeleniumCSharpTests.csproj.CoreCompileInputs.cache
+C:\Users\ajdpe\LearningsAI\SeleniumCodebaseCourse\SeleniumCSharpTests\obj\Debug\net10.0\SeleniumCSharpTests.dll
+C:\Users\ajdpe\LearningsAI\SeleniumCodebaseCourse\SeleniumCSharpTests\obj\Debug\net10.0\refint\SeleniumCSharpTests.dll
+C:\Users\ajdpe\LearningsAI\SeleniumCodebaseCourse\SeleniumCSharpTests\obj\Debug\net10.0\SeleniumCSharpTests.pdb
+C:\Users\ajdpe\LearningsAI\SeleniumCodebaseCourse\SeleniumCSharpTests\obj\Debug\net10.0\ref\SeleniumCSharpTests.dll

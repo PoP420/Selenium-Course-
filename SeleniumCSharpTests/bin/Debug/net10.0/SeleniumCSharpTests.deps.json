@@ -1,0 +1,77 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "SeleniumCSharpTests/1.0.0": {
+        "dependencies": {
+          "Selenium.Support": "4.47.0",
+          "Selenium.WebDriver": "4.47.0"
+        },
+        "runtime": {
+          "SeleniumCSharpTests.dll": {}
+        }
+      },
+      "Selenium.Support/4.47.0": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.47.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Selenium.Support.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver/4.47.0": {
+        "runtime": {
+          "lib/net8.0/Selenium.WebDriver.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux/native/selenium-manager": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/selenium-manager": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win/native/selenium-manager.exe": {
+            "rid": "win",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SeleniumCSharpTests/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Selenium.Support/4.47.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-flmvQGQbvBB5vaF96nFAacAa0lRPtD3FMlhMl7Plb9LBOo+Fvnyf/JG31mioectMAhYL412CAbZQqSRZKMqT3Q==",
+      "path": "selenium.support/4.47.0",
+      "hashPath": "selenium.support.4.47.0.nupkg.sha512"
+    },
+    "Selenium.WebDriver/4.47.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P6tWCztrMNXpA4av0EDEwpw+jPbefH7BtdSU05aAldkCUrZF537uBTkHj+A3EcgpbcGGr6uj61UDy8GO6APhoQ==",
+      "path": "selenium.webdriver/4.47.0",
+      "hashPath": "selenium.webdriver.4.47.0.nupkg.sha512"
+    }
+  }
+}

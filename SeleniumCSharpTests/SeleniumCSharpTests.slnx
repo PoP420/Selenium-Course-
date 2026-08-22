@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="SeleniumCSharpTests.csproj" />
+  <Project Path="SeleniumCSharpTests.Tests/SeleniumCSharpTests.Tests.csproj" />
+</Solution>

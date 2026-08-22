@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "BZDNaCA/rYY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ajdpe\\LearningsAI\\SeleniumCodebaseCourse\\SeleniumCSharpTests\\SeleniumCSharpTests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ajdpe\\.nuget\\packages\\selenium.support\\4.47.0\\selenium.support.4.47.0.nupkg.sha512",
+    "C:\\Users\\ajdpe\\.nuget\\packages\\selenium.webdriver\\4.47.0\\selenium.webdriver.4.47.0.nupkg.sha512",
+    "C:\\Users\\ajdpe\\.nuget\\packages\\selenium.webdriver.chromedriver\\151.0.7922.13800\\selenium.webdriver.chromedriver.151.0.7922.13800.nupkg.sha512"
+  ],
+  "logs": []
+}
